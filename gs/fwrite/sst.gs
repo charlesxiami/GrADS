@@ -1,0 +1,12 @@
+'reinit'
+'sdfopen F:\Data\Original\nc\sst.mon.mean.nc'
+'set gxout fwrite'
+'set fwrite F:\Data\Processed\sst\sst1948-2014.dat'
+'set x 1 360'
+'set y 1 180'
+'set lev 0'
+'set time 00Z01JAN1948 00Z01DEC2014'
+'d sst'
+'disable fwrite'
+'reinit'
+;

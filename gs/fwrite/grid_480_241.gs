@@ -1,0 +1,12 @@
+'reinit'
+'sdfopen F:\Data\Original\ecmwf\ERA.Interim.sat_slp1979jan-2015Sep.nc'
+'set gxout fwrite'
+'set fwrite F:\Data\Processed\era40\sERA.Interim.sat_slp1979jan-2015Sep'
+'set x 1 480'
+'set y 1 241'
+'set lev 0'
+'set t 1 812'
+'d air'
+'disable fwrite'
+'reinit'
+;

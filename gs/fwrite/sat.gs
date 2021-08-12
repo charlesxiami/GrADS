@@ -1,0 +1,12 @@
+'reinit'
+'sdfopen F:\Data\Original\ncep\air.mon.mean.nc'
+'set gxout fwrite'
+'set fwrite F:\Data\Processed\ncep\sat\ncep.sat.partial.1958-2014DJF'
+'set x 33 57'
+'set y 41 69'
+'set lev 0'
+'set time 00Z01JAN1958 00Z01AUG2015'
+'d air'
+'disable fwrite'
+'reinit'
+;

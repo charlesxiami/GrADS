@@ -1,0 +1,12 @@
+'reinit'
+'sdfopen F:\Data\Original\nc\hgt.mon.mean.nc'
+'set gxout fwrite'
+'set fwrite F:\Data\Processed\hgt\200hgt1948-2014globa.dat'
+'set x 1 144'
+'set y 1 73'
+'set lev 200'
+'set t 1 812'
+'d hgt'
+'disable fwrite'
+'reinit'
+;

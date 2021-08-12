@@ -1,0 +1,14 @@
+DSET z500_reg_hf.bin
+TITLE Test
+OPTIONS sequential
+UNDEF -9.99E33
+*FORMAT yrev
+XDEF  144 LINEAR 0 2.5
+YDEF  73 LINEAR  -90 2.5 
+ZDEF   1 LINEAR  1 1
+TDEF   1 LINEAR  00Z01JAN1948 1mo
+VARS   1
+z  0  0  x,y hgt
+ENDVARS
+
+
